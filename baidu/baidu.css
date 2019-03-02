@@ -1,0 +1,93 @@
+body{
+    background-color: #ffffff;
+    position: absolute;
+    margin: 0px;
+}
+
+.header-bar{
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+.header-bar ul{
+    list-style: none;
+    padding: 0px;
+    border: none;
+    margin: 0px;
+}
+
+.block-left{
+    float: left;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.block-left li{
+    float: left;
+}
+
+.block-left a{
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    color: #494747;
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 8px 10px 12px;
+}
+
+.weather-p{
+    display: inline;
+    color: cornflowerblue;
+}
+
+.block-right{
+    float: right;
+    border: none;
+    padding: 0px 0px 0px 794px;
+}
+
+.block-right a{
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    color: #494747;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    padding: 7px 8px 10px 12px;
+}
+
+.block-right li{
+    display: inline-block;
+}
+
+.mor-dropdown{
+    text-decoration: none;
+    position: relative;
+    border: none;
+    margin: 0px;
+    display: inline-block;
+}
+
+.mor-dropbutton{
+    color: white;
+    background-color: royalblue;
+    border: none;
+    padding: 7px 12px 10px 12px;
+    float: right;
+}
+
+.mor-dropdown-content{
+    display: none;
+}
+
+.mor-dropdown:hover .mor-dropbutton{
+    background-color: lightgray;
+    color: black;
+}
