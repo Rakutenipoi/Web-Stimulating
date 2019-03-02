@@ -6,8 +6,7 @@ body{
 
 .header-bar{
     margin: 0px;
-    border: none;
-    padding: 0px;
+    padding: 0px
 }
 
 .header-bar ul{
@@ -90,4 +89,25 @@ body{
 .mor-dropdown:hover .mor-dropbutton{
     background-color: lightgray;
     color: black;
+}
+
+.logo-block{
+    
+}
+
+.logo a{
+    cursor: default;
+}
+
+.logo a:visited{
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: dotted;
+}
+
+.logo img{
+    display: block;
+    padding: 30px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
